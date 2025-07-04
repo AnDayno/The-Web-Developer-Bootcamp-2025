@@ -38,7 +38,6 @@ In this repo you’ll find:
 | `/react-expansion` | Hands-on React exercises & hooks demos.    |
 | ...                | ...                                        |
 
-*(Feel free to add or remove rows as you build out more projects.)*
 
 ---
 
