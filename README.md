@@ -108,5 +108,5 @@ This course blends:
 ---
 <a name="author"></a>
 ## 👤 Author
- * **Name:**Colt Steele
- * **Course:**[Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)  
+ * **Name:** Colt Steele
+ * **Course:** [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)  
