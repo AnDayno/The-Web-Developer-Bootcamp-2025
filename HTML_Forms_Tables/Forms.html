@@ -38,5 +38,23 @@
     <hr>
     <!-- Outside of a from, no default behavior -->
      <button>Not Inside Form</button>
+    <h2>Hijacking Searches</h2>
+    <form action="https://www.reddit.com/search">
+        <label for="reddit">Search Reddit: </label>
+        <input type="text" placeholder="Search on Reddit" id="reddit" name="q">
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <label for="google">Search Google: </label>
+        <input type="text" placeholder="Search on Google" id="google" name="q">
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <label for="youtube">Search Youtube: </label>
+        <input type="text" placeholder="Search on Youtube" id="youtube" name="search_query">
+        <button>Search</button>
+    </form>
 </body>
 </html>
