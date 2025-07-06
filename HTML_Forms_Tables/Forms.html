@@ -25,7 +25,7 @@
             <!-- Alternative way to label an input (less common) -->
             <label>
                 Enter a Number:
-                <input type="number" placeholder="enter a number" name="num">
+                <input type="number" placeholder="enter a number" name="num" min="0" max="1000" step="2">
             </label>
         </p>
         <!-- this button doesn't submit the form b/c of the "type" attribute -->
@@ -78,6 +78,17 @@
                 <option value="krump">Krump</option>
                 <option value="bboy">BreakDance</option>
             </select>
+        </p>
+
+        <P>
+            <label for="groove">Amount of Groove:</label>
+            <input type="range" id="groove" value="75" name="groove">
+        </P>
+
+        <p>
+            <label for="request">Any Special Requests?</label>
+            <br>
+            <textarea id="request" name="request" cols="40" rows="5" placeholder="type something here"></textarea>
         </p>
         <button>Submit</button>
     </form>
