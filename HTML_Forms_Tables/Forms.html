@@ -82,7 +82,7 @@
 
         <P>
             <label for="groove">Amount of Groove:</label>
-            <input type="range" id="groove" value="75" name="groove">
+            <input type="range" id="groove" min="1" max="100" value="75" name="groove">
         </P>
 
         <p>
@@ -91,6 +91,23 @@
             <textarea id="request" name="request" cols="40" rows="5" placeholder="type something here"></textarea>
         </p>
         <button>Submit</button>
+    </form>
+
+    <h2>Validations Demo</h2>
+    <form action="/test">
+        <p>
+            <label for="first">Enter First Name:</label>
+            <input type="text" id="first" name="firstname" required>
+        </p>
+
+        <p>
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" name="userName" minlength="5" maxlength="16" required>
+        </p>
+        
+        <p>
+            <button>Submit</button>
+        </p>
     </form>
 </body>
 </html>
