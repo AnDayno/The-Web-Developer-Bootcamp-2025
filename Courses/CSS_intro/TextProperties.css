@@ -1,0 +1,14 @@
+h1 {
+    text-align: center ;
+    font-weight: 400;
+    text-decoration: tomato underline wavy;
+    letter-spacing: 15px;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
