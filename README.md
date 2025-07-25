@@ -54,7 +54,7 @@ In this repo you’ll find:
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/web-dev-bootcamp-2025.git
+   git clone https://github.com/AnDayno/The-Web-Developer-Bootcamp-2025.git
    cd web-dev-bootcamp-2025
    
 2. **Install dependencies** in each project folder:
