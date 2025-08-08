@@ -24,7 +24,7 @@
 //     console.log("Wah");
 // }
 
-// const age = 3;
+const age = 3;
 
 if (age < 5 ){
     console.log("You are a baby. You get in for free!")
