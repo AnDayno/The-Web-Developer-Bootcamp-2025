@@ -21,4 +21,8 @@
 //     console.log("Invalid Age!")
 // }
 
-
+// ---------- != (NOT) LOGICAL OPERATOR ----------
+// const firstName = prompt("enter your first name");
+// if (!firstName){
+//     firstName = prompt("Try Again!");
+// }
