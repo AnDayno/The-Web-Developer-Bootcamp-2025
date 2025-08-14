@@ -1,0 +1,13 @@
+// let count = 0;
+// while (count < 10){
+//     count++;
+//     console.log(count)
+// }
+
+const secret = "BabyHippo";
+
+let guess = prompt("Enter the secret code...")
+while (guess != secret){
+    guess = prompt("Try Again")
+}
+console.log("Congrats you got the secret!!")
