@@ -20,12 +20,24 @@
 
 // greet("Elvis", "Presly");
 
-function repeat(str, num) {
-    let result = '';
-	for (let i = 0; i < num; i++) {
-        result += str;
-	}
-    console.log(result);
+// function repeat(str, num) {
+//     let result = '';
+// 	for (let i = 0; i < num; i++) {
+//         result += str;
+// 	}
+//     console.log(result);
+// }
+
+// repeat("Hi", 9);
+
+// ---------- Functions(Return) ----------
+
+function add(x,y) {
+    if (typeof x !== 'number' || typeof y !== 'number'){
+        return false;
+    }
+    return x + y;
 }
 
-repeat("Hi", 9);
+let math = add(6,7);
+console.log(math);
