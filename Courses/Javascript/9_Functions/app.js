@@ -7,8 +7,25 @@
 // singSong();
 
 // ---------- Functions(Argument) ----------
-function greet(firstName){
-    console.log(`Hey there, ${firstName}!`);
+// function greet(firstName){
+//     console.log(`Hey there, ${firstName}!`);
+// }
+
+// greet(Elvis);
+
+// ---------- Functions(Multiple Argument) ----------
+// function greet(firstName, lastName){
+//     console.log(`Hey there, ${firstName} ${lastName[0]}.!`);
+// }
+
+// greet("Elvis", "Presly");
+
+function repeat(str, num) {
+    let result = '';
+	for (let i = 0; i < num; i++) {
+        result += str;
+	}
+    console.log(result);
 }
 
-greet(Elvis);
+repeat("Hi", 9);
